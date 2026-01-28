@@ -7,7 +7,6 @@ LibreNote is a free software, minimalist text editor for Windows, inspired by th
 
 Before compiling LibreNotepad, ensure the following prerequisites:
 
-Operating System: Windows 11 (64-bit).
 
 Development Environment: MSYS2 UCRT64 installed and up-to-date.
 
