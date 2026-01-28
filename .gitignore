@@ -1,0 +1,8 @@
+# Ignore Windows executables
+*.exe
+
+# Ignore object files
+*.o
+
+# Ignore Visual Studio project files
+*.aps
