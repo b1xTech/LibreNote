@@ -13,3 +13,9 @@ Development Environment: MSYS2 UCRT64 installed and up-to-date.
 
 Access to MSYS2 Bash shell for executing commands.
 
+Compile LibreNotepad using the following command:
+# Debug build (includes debug symbols, no optimization):
+g++ -g -O0 main.cpp librenote_res.o -o librenote.exe $(pkg-config --cflags --libs gtk4) -mwindows
+
+# Release build (optimized executable, no debug symbols):
+g++ main.cpp librenote_res.o -o librenote.exe $(pkg-config --cflags --libs gtk4) -mwindows
