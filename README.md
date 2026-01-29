@@ -18,3 +18,5 @@ g++ -g -O0 main.cpp librenote_res.o -o librenote.exe $(pkg-config --cflags --lib
 
 # Release build (optimized executable, no debug symbols):
 g++ main.cpp librenote_res.o -o librenote.exe $(pkg-config --cflags --libs gtk4) -mwindows
+
+# Download https://github.com/b1xTech/LibreNote/releases/download/beta/LibreNote-Setup.exe
